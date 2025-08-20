@@ -5,3 +5,4 @@ matplotlib
 scikit-learn
 jupyter
 ipykernel
+-e .   # this is used to trigure the setup.py file 
