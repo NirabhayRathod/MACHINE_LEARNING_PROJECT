@@ -5,4 +5,10 @@ matplotlib
 scikit-learn
 jupyter
 ipykernel
--e .   # this is used to trigure the setup.py file 
+dill
+xgboost
+catboost
+matplotlib
+seaborn
+streamlit 
+#-e .   # this is used to trigure the setup.py file 
