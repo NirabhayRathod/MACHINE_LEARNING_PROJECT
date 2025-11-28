@@ -5,78 +5,89 @@ import pandas as pd
 import numpy as np
 from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
-from dataclasses import dataclass
 from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import OneHotEncoder, StandardScaler
+from sklearn.preprocessing import OneHotEncoder, LabelEncoder
+
+# FIX: Import MinMaxScaler instead of StandardScaler to avoid type casting issues
+from sklearn.preprocessing import MinMaxScaler
 
 from src.exception import CustomException
 from src.logger import logging
 from src.utils import save_object
 
-@dataclass
-class DataTransConfig:
-    preprocessor_file_path: str = os.path.join('artifacts', 'preprocessor.pkl')
+def get_data_trans_obj():
+    try:
+        num_columns = ['Age', 'Sleep Duration', 'Physical Activity Level', 'Stress Level', 'Daily Steps']
+        cat_columns = ['Gender', 'Occupation', 'BMI Category', 'Sleep Disorder']
 
-class DataTransformation:
-    def __init__(self):
-        self.preprocess_config = DataTransConfig()
+        # FIX: Use MinMaxScaler instead of StandardScaler - no type casting issues
+        num_pipeline = Pipeline([
+            ('imputer', SimpleImputer(strategy='median')),
+            ('scaler', MinMaxScaler())  # CHANGED: MinMaxScaler handles mixed types better
+        ])
 
-    def get_data_trans_obj(self):
-        try:
-            num_columns = ['writing_score', 'reading_score']
-            cat_columns = ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+        cat_pipeline = Pipeline([
+            ('imputer', SimpleImputer(strategy='most_frequent')),
+            ('one_hot_encoder', OneHotEncoder(handle_unknown='ignore', sparse_output=False))
+        ])
 
-            num_pipeline = Pipeline([
-                ('imputer', SimpleImputer(strategy='median')),
-                ('scaler', StandardScaler())
-            ])
+        logging.info(f"Numerical columns: {num_columns}")
+        logging.info(f"Categorical columns: {cat_columns}")
 
-            cat_pipeline = Pipeline([
-                ('imputer', SimpleImputer(strategy='most_frequent')),
-                ('one_hot_encoder', OneHotEncoder(handle_unknown='ignore', sparse_output=False)),
-                ('scaler', StandardScaler())
-            ])
+        preprocessor = ColumnTransformer([
+            ('num_pipeline', num_pipeline, num_columns),
+            ('cat_pipeline', cat_pipeline, cat_columns)
+        ])
 
-            logging.info(f"Numerical columns: {num_columns}")
-            logging.info(f"Categorical columns: {cat_columns}")
+        return preprocessor
 
-            preprocessor = ColumnTransformer([
-                ('num_pipeline', num_pipeline, num_columns),
-                ('cat_pipeline', cat_pipeline, cat_columns)
-            ])
+    except Exception as e:
+        raise CustomException(e, sys)
 
-            return preprocessor
+def initiate_data_transformation(train, test):
+    try:
+        train_df = train
+        test_df = test
+        logging.info("Read train and test data")
 
-        except Exception as e:
-            raise CustomException(e, sys)
+        # FIX: Convert to float64 for ALL numerical columns to avoid casting issues
+        numerical_cols = ['Age', 'Sleep Duration', 'Physical Activity Level', 'Stress Level', 'Daily Steps']
+        
+        for col in numerical_cols:
+            if col in train_df.columns:
+                train_df[col] = train_df[col].astype('float64')
+                test_df[col] = test_df[col].astype('float64')
 
-    def initiate_data_transformation(self, train_path, test_path):
-        try:
-            train_df = pd.read_csv(train_path)
-            test_df = pd.read_csv(test_path)
-            logging.info("Read train and test data")
+        preprocessor = get_data_trans_obj()
+        target_column = 'SleepQuality'
 
-            preprocessor = self.get_data_trans_obj()
-            target_column = 'math_score'
+        input_feature_train_df = train_df.drop(columns=[target_column])
+        target_feature_train_df = train_df[target_column]
 
-            input_feature_train_df = train_df.drop(columns=[target_column])
-            target_feature_train_df = train_df[target_column]
+        input_feature_test_df = test_df.drop(columns=[target_column])
+        target_feature_test_df = test_df[target_column]
 
-            input_feature_test_df = test_df.drop(columns=[target_column])
-            target_feature_test_df = test_df[target_column]
+        logging.info("Applying preprocessing object on training and testing dataframes")
 
-            logging.info("Applying preprocessing object on training and testing dataframes")
+        input_feature_train_arr = preprocessor.fit_transform(input_feature_train_df)
+        input_feature_test_arr = preprocessor.transform(input_feature_test_df)
 
-            input_feature_train_arr = preprocessor.fit_transform(input_feature_train_df)
-            input_feature_test_arr = preprocessor.transform(input_feature_test_df)
+        # Apply LabelEncoder to target feature
+        label_encoder = LabelEncoder()
+        target_feature_train_encoded = label_encoder.fit_transform(target_feature_train_df)
+        target_feature_test_encoded = label_encoder.transform(target_feature_test_df)
 
-            train_arr = np.c_[input_feature_train_arr, target_feature_train_df.to_numpy()]
-            test_arr = np.c_[input_feature_test_arr, target_feature_test_df.to_numpy()]
+        logging.info(f"Label mapping: {dict(zip(label_encoder.classes_, label_encoder.transform(label_encoder.classes_)))}")
 
-            save_object(file_path=self.preprocess_config.preprocessor_file_path, obj=preprocessor)
-            logging.info("Preprocessing object saved")
+        train_arr = np.c_[input_feature_train_arr, target_feature_train_encoded]
+        test_arr = np.c_[input_feature_test_arr, target_feature_test_encoded]
 
-            return train_arr, test_arr, self.preprocess_config.preprocessor_file_path
+        # Save both preprocessor and label encoder
+        save_object(file_path=r'D:\SushilPal\MACHINE_LEARNING_PROJECT\artifacts\column_processor.pkl', obj=preprocessor)
+        save_object(file_path=r'D:\SushilPal\MACHINE_LEARNING_PROJECT\artifacts\label_encoder.pkl', obj=label_encoder)
+        logging.info("Preprocessing object and label encoder saved")
 
-        except Exception as e:
-            raise CustomException(e, sys)
+        return train_arr, test_arr, r'D:\SushilPal\MACHINE_LEARNING_PROJECT\artifacts\column_processor.pkl', r'D:\SushilPal\MACHINE_LEARNING_PROJECT\artifacts\label_encoder.pkl'
+
+    except Exception as e:
+        raise CustomException(e, sys)

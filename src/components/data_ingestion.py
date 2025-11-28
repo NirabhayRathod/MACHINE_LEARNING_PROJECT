@@ -1,53 +1,34 @@
 import sys
 import os
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
-
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))) 
 from src.logger import logging
 from src.exception import CustomException
 import pandas as pd
 from sklearn.model_selection import train_test_split
-from dataclasses import dataclass
 
-from src.components.data_transformation import DataTransformation
-from src.components.model_trainer import ModelTrainer
+def initiate_data_ingestion():
+    try:
+        data = pd.read_csv(r'D:\SushilPal\MACHINE_LEARNING_PROJECT\artifacts\cleaned_dataset.csv')
+        logging.info('data reading completed from -> "SleepPattern_BalancedRaw.csv"')
+        
+        train, test = train_test_split(data, random_state=42, test_size=0.2)
+        logging.info('data splitting completed')
+         
+        train.to_csv(r'D:\SushilPal\MACHINE_LEARNING_PROJECT\artifacts\train.csv', index=False)
+        test.to_csv(r'D:\SushilPal\MACHINE_LEARNING_PROJECT\artifacts\test.csv', index=False)
+        
+        return train, test
 
-@dataclass
-class DataIngestionConfig:
-    train_data_path: str = os.path.join('artifacts', 'train.csv')
-    test_data_path: str = os.path.join('artifacts', 'test.csv')
-    raw_data_path: str = os.path.join('artifacts', 'data.csv')
-
-class DataIngestion:
-    def __init__(self):
-        self.ingestion_config = DataIngestionConfig()
-
-    def initiate_data_ingestion(self):
-        logging.info("Entered the data ingestion method or component")
-        try:
-            data = pd.read_csv('notebook/data/stud.csv')
-            logging.info("Read the dataset as data")
-
-            os.makedirs(os.path.dirname(self.ingestion_config.train_data_path), exist_ok=True)
-            data.to_csv(self.ingestion_config.raw_data_path, index=False, header=True)
-
-            logging.info("Train-test split initiated")
-            train_set, test_set = train_test_split(data, test_size=0.2, random_state=42)
-
-            train_set.to_csv(self.ingestion_config.train_data_path, index=False, header=True)
-            test_set.to_csv(self.ingestion_config.test_data_path, index=False, header=True)
-
-            return self.ingestion_config.train_data_path, self.ingestion_config.test_data_path
-
-        except Exception as e:
-            raise CustomException(e, sys)
+    except Exception as e:
+        raise CustomException(e, sys)
 
 if __name__ == '__main__':
-    obj = DataIngestion()
-    train_data, test_data = obj.initiate_data_ingestion()
+    train_data, test_data = initiate_data_ingestion()
 
-    transformation_object = DataTransformation()
-    train_arr, test_arr, preprocessor_path = transformation_object.initiate_data_transformation(train_data, test_data)
+    from data_transformation import initiate_data_transformation
+    from model_trainer import initiate_model_training
 
-    model_obj = ModelTrainer()
-    score = model_obj.initiate_model_training(train_arr, test_arr, preprocessor_path)
+    train_arr, test_arr, column_processor_path, label_encoder_path = initiate_data_transformation(train_data, test_data)
+
+    score = initiate_model_training(train_arr, test_arr)
     print(f"Our best model score: {score}")
