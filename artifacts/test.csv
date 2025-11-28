@@ -1,201 +1,201 @@
-gender,race_ethnicity,parental_level_of_education,lunch,test_preparation_course,math_score,reading_score,writing_score
-female,group C,associate's degree,standard,none,91,86,84
-female,group B,some college,free/reduced,completed,53,66,73
-male,group D,bachelor's degree,standard,none,80,73,72
-male,group C,some college,free/reduced,none,74,77,73
-male,group E,some college,standard,completed,84,83,78
-male,group D,associate's degree,free/reduced,none,81,75,78
-male,group B,associate's degree,free/reduced,completed,69,70,63
-female,group B,some high school,standard,completed,54,61,62
-male,group C,associate's degree,free/reduced,none,87,73,72
-male,group B,some high school,standard,completed,51,54,41
-male,group A,high school,free/reduced,none,45,47,49
-male,group E,some high school,standard,none,30,26,22
-female,group B,high school,free/reduced,completed,67,80,81
-female,group D,some college,free/reduced,none,49,65,61
-male,group D,some college,standard,completed,85,81,85
-female,group D,some high school,standard,completed,65,78,82
-male,group D,high school,standard,none,53,52,42
-male,group D,bachelor's degree,free/reduced,none,55,46,44
-female,group D,some high school,standard,none,48,58,54
-female,group D,associate's degree,free/reduced,none,56,65,63
-male,group C,master's degree,standard,none,79,72,69
-female,group C,bachelor's degree,free/reduced,completed,43,51,54
-female,group C,some college,free/reduced,completed,45,73,70
-female,group C,high school,free/reduced,none,36,53,43
-male,group D,some high school,free/reduced,completed,80,79,79
-male,group D,associate's degree,standard,none,80,75,77
-male,group D,bachelor's degree,standard,completed,68,74,74
-female,group C,associate's degree,standard,none,40,59,51
-female,group A,high school,free/reduced,completed,34,48,41
-female,group D,some college,free/reduced,none,49,58,60
-male,group B,some college,standard,none,62,61,57
-male,group D,some college,standard,completed,71,61,69
-male,group B,bachelor's degree,free/reduced,none,62,63,56
-male,group E,some college,standard,none,76,71,72
-male,group E,some college,standard,none,84,77,71
-female,group B,some college,free/reduced,none,45,53,55
-male,group D,associate's degree,free/reduced,none,77,78,73
-female,group D,some college,standard,none,69,77,77
-female,group C,master's degree,standard,none,73,78,74
-female,group C,some high school,free/reduced,none,0,17,10
-male,group C,associate's degree,standard,completed,82,75,77
-male,group B,some high school,standard,completed,65,66,62
-male,group D,bachelor's degree,standard,completed,67,61,68
-female,group A,some college,standard,none,54,63,67
-male,group D,associate's degree,free/reduced,none,90,87,75
-female,group E,high school,standard,completed,59,63,75
-male,group D,high school,free/reduced,none,74,70,69
-female,group C,high school,standard,none,29,29,30
-male,group D,some high school,standard,completed,89,88,82
-female,group A,high school,standard,completed,75,82,79
-male,group B,some college,standard,completed,71,75,70
-female,group D,associate's degree,standard,none,64,76,74
-male,group C,some college,standard,completed,79,79,78
-female,group B,some college,free/reduced,completed,48,56,58
-female,group C,some high school,standard,none,69,73,73
-female,group D,some college,standard,none,69,74,74
-male,group D,bachelor's degree,standard,none,88,78,83
-male,group C,associate's degree,standard,none,58,54,52
-male,group B,associate's degree,standard,none,87,85,73
-female,group A,some high school,standard,completed,85,90,92
-male,group A,some high school,standard,completed,46,41,43
-female,group C,some high school,free/reduced,completed,71,84,87
-female,group C,associate's degree,standard,none,81,77,79
-female,group B,some college,free/reduced,none,58,61,66
-male,group D,master's degree,free/reduced,completed,84,89,90
-female,group C,bachelor's degree,free/reduced,completed,66,74,81
-female,group D,some college,free/reduced,none,55,71,69
-male,group C,high school,free/reduced,none,59,53,52
-female,group D,some college,free/reduced,completed,58,63,73
-female,group D,associate's degree,standard,none,82,95,89
-male,group E,associate's degree,standard,completed,66,63,64
-female,group C,bachelor's degree,standard,none,81,88,90
-male,group C,some college,free/reduced,none,58,57,54
-female,group A,associate's degree,free/reduced,none,37,57,56
-male,group C,some high school,standard,completed,63,60,57
-male,group E,some high school,standard,completed,77,76,77
-female,group D,some college,standard,completed,85,86,98
-male,group B,associate's degree,free/reduced,none,57,56,57
-female,group A,some high school,standard,none,48,66,65
-male,group C,some high school,standard,none,51,52,44
-male,group D,some college,free/reduced,none,63,61,60
-male,group D,some high school,free/reduced,none,45,37,37
-male,group C,bachelor's degree,standard,none,83,78,73
-female,group C,some college,standard,none,60,72,74
-male,group B,bachelor's degree,standard,none,63,71,69
-female,group C,high school,free/reduced,none,62,67,64
-female,group D,some college,standard,completed,68,78,77
-female,group B,some high school,standard,completed,60,70,74
-female,group C,some high school,standard,completed,77,90,85
-male,group A,some college,free/reduced,none,28,23,19
-male,group C,master's degree,free/reduced,none,79,81,71
-female,group E,some college,standard,none,100,92,97
-male,group D,bachelor's degree,standard,none,69,58,57
-male,group B,high school,free/reduced,none,66,77,70
-female,group B,some college,standard,none,19,38,32
-male,group D,associate's degree,standard,none,75,68,64
-male,group D,some college,standard,none,60,63,59
-female,group A,some college,standard,none,58,70,67
-female,group C,associate's degree,standard,none,69,80,71
-female,group C,associate's degree,free/reduced,completed,56,68,70
-male,group C,associate's degree,standard,completed,73,78,72
-male,group E,some college,standard,none,66,57,52
-male,group A,associate's degree,standard,none,67,57,53
-female,group C,associate's degree,free/reduced,none,64,73,68
-male,group A,high school,standard,none,71,74,64
-male,group B,high school,standard,none,70,65,60
-male,group E,associate's degree,standard,none,53,45,40
-male,group C,high school,standard,none,75,81,71
-female,group B,high school,standard,completed,68,83,78
-female,group C,high school,standard,none,44,61,52
-female,group D,bachelor's degree,free/reduced,none,29,41,47
-female,group B,high school,free/reduced,none,71,87,82
-male,group A,high school,standard,none,57,51,54
-female,group A,bachelor's degree,standard,none,45,59,64
-female,group C,some college,free/reduced,none,76,83,88
-male,group C,high school,standard,none,61,56,55
-male,group C,some high school,free/reduced,completed,45,52,49
-male,group D,high school,standard,completed,55,41,48
-male,group B,high school,standard,completed,73,69,68
-male,group D,high school,free/reduced,completed,78,77,80
-female,group A,master's degree,free/reduced,none,50,67,73
-female,group C,some college,free/reduced,none,62,67,62
-male,group D,master's degree,standard,none,81,81,84
-female,group C,some high school,free/reduced,completed,64,79,77
-female,group D,some high school,standard,completed,64,60,74
-male,group D,some high school,standard,none,73,66,62
-female,group D,associate's degree,standard,completed,73,75,80
-female,group C,some high school,standard,completed,67,74,77
-male,group B,associate's degree,standard,none,61,42,41
-male,group C,some high school,standard,completed,67,73,68
-female,group D,some high school,standard,none,65,82,81
-male,group D,associate's degree,standard,none,80,75,69
-male,group D,some high school,free/reduced,none,59,42,41
-female,group E,master's degree,standard,completed,88,99,95
-female,group C,associate's degree,standard,none,62,74,70
-female,group C,high school,free/reduced,none,33,41,43
-female,group C,bachelor's degree,standard,completed,79,92,89
-male,group B,some high school,standard,completed,84,83,75
-male,group A,master's degree,free/reduced,none,73,74,72
-female,group A,associate's degree,free/reduced,none,41,51,48
-female,group E,associate's degree,free/reduced,none,50,56,54
-female,group B,high school,standard,completed,58,70,68
-male,group D,some high school,free/reduced,completed,55,59,59
-male,group D,high school,standard,none,45,48,46
-male,group D,some high school,standard,completed,88,74,75
-female,group B,associate's degree,free/reduced,none,46,61,55
-male,group A,some high school,standard,none,51,31,36
-male,group D,some high school,standard,none,75,74,69
-male,group E,some college,free/reduced,completed,49,52,51
-female,group E,high school,standard,none,75,86,79
-female,group E,high school,standard,completed,74,79,80
-female,group B,associate's degree,standard,completed,61,86,87
-male,group C,associate's degree,standard,none,62,65,58
-male,group C,some high school,free/reduced,none,68,63,54
-female,group D,master's degree,standard,none,78,91,96
-female,group E,some college,standard,none,71,70,76
-female,group D,high school,free/reduced,none,49,57,52
-female,group A,bachelor's degree,standard,none,59,72,70
-male,group E,bachelor's degree,free/reduced,completed,79,74,72
-female,group E,associate's degree,standard,none,51,51,54
-female,group C,bachelor's degree,standard,completed,56,79,72
-male,group B,high school,standard,completed,76,62,60
-female,group D,some college,standard,completed,69,79,81
-male,group C,some high school,free/reduced,completed,51,56,53
-male,group D,some college,standard,completed,82,82,88
-male,group C,some college,standard,none,73,74,61
-male,group C,high school,free/reduced,completed,40,46,50
-male,group E,some college,free/reduced,none,93,90,83
-female,group C,bachelor's degree,standard,completed,59,64,75
-female,group B,associate's degree,standard,none,73,76,80
-male,group B,some high school,standard,completed,85,84,78
-male,group E,associate's degree,standard,none,76,71,67
-female,group D,associate's degree,free/reduced,completed,77,89,98
-female,group D,some college,free/reduced,completed,67,86,83
-male,group D,some college,free/reduced,none,61,47,56
-female,group D,some high school,free/reduced,none,27,34,32
-male,group D,high school,standard,none,54,52,52
-female,group C,master's degree,free/reduced,completed,65,81,81
-female,group E,associate's degree,standard,none,87,94,95
-female,group C,some high school,standard,completed,70,82,76
-female,group B,high school,standard,none,54,64,68
-female,group C,high school,free/reduced,none,66,76,68
-female,group D,master's degree,free/reduced,completed,85,95,100
-male,group C,some high school,free/reduced,completed,56,61,60
-male,group E,master's degree,standard,none,90,85,84
-male,group E,high school,standard,none,70,55,56
-female,group B,bachelor's degree,standard,none,61,72,70
-male,group A,bachelor's degree,free/reduced,completed,49,58,60
-male,group C,high school,standard,none,81,66,64
-male,group B,some college,standard,completed,87,84,86
-male,group B,some high school,free/reduced,completed,49,50,52
-male,group B,some high school,standard,none,68,54,53
-male,group C,associate's degree,free/reduced,none,77,67,64
-female,group B,bachelor's degree,free/reduced,none,78,79,76
-male,group C,associate's degree,free/reduced,completed,60,51,56
-female,group D,high school,free/reduced,completed,52,57,56
-male,group E,associate's degree,standard,completed,62,56,53
-female,group B,some college,free/reduced,none,74,81,76
-female,group C,associate's degree,standard,none,65,77,74
-female,group D,some high school,standard,completed,61,74,72
+Unnamed: 0,Age,Sleep Duration,SleepQuality,Physical Activity Level,Stress Level,Daily Steps,Gender,Occupation,BMI Category,Sleep Disorder
+521,47,7.6,Good,64,3,8622,Female,Teacher,Normal Weight,No
+737,54,5.4,Poor,31,7,4761,Male,Doctor,Obese,Sleep Apnea
+740,27,8.08,Excellent,72,1,14734,Female,Manager,Normal Weight,No
+660,34,4.27,Poor,33,9,4041,Female,Salesperson,Obese,Insomnia
+411,35,8.9,Excellent,81,2,13845,Male,Engineer,Normal Weight,No
+678,36,8.08,Excellent,75,3,11939,Male,Salesperson,Normal Weight,No
+626,50,3.53,Poor,28,8,3631,Female,Software Engineer,Obese,Sleep Apnea
+513,25,4.41,Poor,21,8,3981,Female,Teacher,Obese,Sleep Apnea
+859,48,8.47,Excellent,95,1,13438,Female,Manager,Normal Weight,No
+136,38,4.2,Poor,39,7,5376,Female,Lawyer,Overweight,Insomnia
+811,53,5.49,Poor,26,9,4444,Male,Manager,Obese,Insomnia
+76,36,7.68,Good,71,2,10841,Male,Salesperson,Normal Weight,No
+636,21,5.49,Poor,39,7,5108,Male,Lawyer,Obese,Insomnia
+973,38,8.84,Excellent,96,2,15904,Male,Teacher,Normal Weight,No
+938,45,6.38,Average,47,6,7206,Male,Lawyer,Normal Weight,No
+899,34,8.02,Excellent,87,2,11129,Male,Doctor,Normal Weight,No
+280,41,7.4,Good,65,3,10470,Male,Scientist,Normal Weight,No
+883,41,4.16,Poor,33,7,3082,Male,Salesperson,Obese,Insomnia
+761,26,7.7,Good,66,4,10372,Male,Teacher,Normal Weight,No
+319,42,4.36,Poor,25,9,5188,Male,Lawyer,Obese,Insomnia
+549,40,4.31,Poor,32,8,4054,Male,Lawyer,Obese,Sleep Apnea
+174,27,6.04,Average,32,6,6540,Female,Salesperson,Normal Weight,Insomnia
+371,53,6.94,Good,50,4,8896,Female,Salesperson,Normal Weight,No
+527,37,4.74,Poor,17,9,4791,Male,Manager,Obese,Insomnia
+210,35,4.56,Poor,20,7,3699,Female,Teacher,Obese,Sleep Apnea
+235,41,4.03,Poor,23,8,4085,Female,Engineer,Obese,Insomnia
+101,43,6.24,Average,55,6,5164,Male,Doctor,Overweight,No
+986,37,6.64,Average,50,4,5136,Male,Salesperson,Normal Weight,Insomnia
+902,41,5.93,Average,48,6,6014,Female,Manager,Normal Weight,No
+947,34,8.35,Excellent,96,2,13885,Male,Doctor,Normal Weight,No
+346,37,7.75,Good,79,4,9808,Male,Salesperson,Normal Weight,No
+139,32,3.63,Poor,18,9,2510,Female,Doctor,Overweight,Insomnia
+621,44,4.69,Poor,23,7,5681,Male,Teacher,Obese,Insomnia
+499,49,8.96,Excellent,81,2,12017,Male,Salesperson,Normal Weight,No
+370,48,3.54,Poor,15,9,4126,Male,Engineer,Obese,Insomnia
+198,26,7.4,Good,55,3,9907,Male,Lawyer,Normal Weight,No
+687,37,7.54,Good,77,3,10709,Female,Software Engineer,Normal Weight,No
+584,34,8.16,Excellent,77,2,13407,Female,Nurse,Normal Weight,No
+901,29,8.44,Excellent,90,1,15401,Female,Doctor,Normal Weight,No
+59,31,8.77,Excellent,80,2,10595,Female,Nurse,Normal Weight,No
+328,37,7.82,Good,76,2,11140,Male,Scientist,Normal Weight,No
+96,31,8.7,Excellent,77,1,10767,Male,Salesperson,Underweight,No
+312,29,7.79,Good,79,2,9810,Female,Salesperson,Normal Weight,No
+974,36,6.64,Average,30,6,6390,Male,Manager,Overweight,Insomnia
+299,22,5.15,Poor,14,7,2053,Male,Manager,Obese,Sleep Apnea
+277,45,7.65,Good,66,5,8082,Female,Software Engineer,Normal Weight,No
+924,27,6.21,Average,46,7,7386,Female,Salesperson,Normal Weight,No
+601,38,4.67,Poor,37,8,2513,Male,Engineer,Obese,Sleep Apnea
+439,49,7.64,Good,55,3,10699,Female,Nurse,Normal Weight,No
+837,34,8.67,Excellent,78,3,15002,Male,Teacher,Normal Weight,No
+570,48,5.03,Poor,38,8,2244,Female,Teacher,Obese,Insomnia
+879,54,5.02,Poor,39,7,4263,Male,Software Engineer,Obese,Insomnia
+261,40,6.38,Average,37,6,6001,Male,Salesperson,Normal Weight,No
+578,47,6.18,Average,41,6,5356,Male,Salesperson,Normal Weight,No
+23,47,7.55,Good,79,2,9848,Male,Lawyer,Normal Weight,No
+30,44,6.08,Average,47,7,7248,Male,Manager,Overweight,No
+617,28,7.96,Good,57,2,10892,Female,Software Engineer,Normal Weight,No
+10,31,8.93,Excellent,80,2,13990,Female,Salesperson,Normal Weight,No
+221,26,7.92,Good,63,3,9996,Female,Manager,Normal Weight,No
+820,24,5.06,Poor,19,7,2641,Male,Software Engineer,Obese,Sleep Apnea
+296,37,8.63,Excellent,87,3,11678,Female,Nurse,Normal Weight,No
+54,35,3.58,Poor,29,9,3955,Male,Manager,Overweight,Insomnia
+542,37,4.78,Poor,34,8,2792,Male,Doctor,Obese,Insomnia
+209,40,8.6,Excellent,89,3,14958,Male,Nurse,Underweight,No
+604,29,7.89,Good,77,2,8027,Female,Teacher,Normal Weight,No
+692,28,7.68,Good,60,3,8729,Female,Teacher,Normal Weight,No
+662,33,8.18,Excellent,71,3,15128,Male,Salesperson,Normal Weight,No
+866,43,6.25,Average,46,4,7477,Female,Doctor,Normal Weight,No
+70,52,3.57,Poor,31,8,5593,Female,Salesperson,Obese,Sleep Apnea
+543,46,6.67,Average,56,7,8815,Male,Salesperson,Overweight,No
+107,32,8.84,Excellent,71,1,13581,Female,Scientist,Normal Weight,No
+493,33,5.37,Poor,20,7,4635,Female,Salesperson,Overweight,Sleep Apnea
+590,21,3.77,Poor,30,8,2741,Female,Software Engineer,Overweight,Sleep Apnea
+741,30,8.8,Excellent,73,1,15064,Male,Software Engineer,Normal Weight,No
+292,44,6.84,Good,57,3,8925,Male,Scientist,Normal Weight,No
+289,37,8.54,Excellent,96,2,12362,Female,Salesperson,Underweight,No
+652,25,8.48,Excellent,70,1,12469,Female,Salesperson,Normal Weight,No
+39,29,5.17,Poor,26,7,5301,Female,Teacher,Overweight,Sleep Apnea
+589,43,5.34,Poor,12,8,2526,Male,Manager,Obese,Insomnia
+307,38,7.03,Good,77,5,8140,Male,Doctor,Normal Weight,No
+679,32,5.1,Poor,28,7,3354,Male,Teacher,Overweight,Insomnia
+66,25,7.19,Good,50,3,9871,Female,Teacher,Normal Weight,No
+275,30,3.9,Poor,17,9,2418,Male,Teacher,Obese,Insomnia
+67,38,8.34,Excellent,75,2,14006,Male,Scientist,Underweight,No
+318,40,7.26,Good,57,2,8486,Female,Scientist,Normal Weight,No
+548,41,7.62,Good,77,3,10077,Female,Software Engineer,Normal Weight,No
+998,39,6.72,Average,38,4,6415,Male,Engineer,Normal Weight,No
+714,47,6.68,Average,48,7,5361,Male,Lawyer,Overweight,No
+753,47,6.38,Average,49,6,8227,Female,Salesperson,Normal Weight,No
+327,45,5.61,Average,34,7,5203,Male,Salesperson,Normal Weight,No
+382,37,8.81,Excellent,70,1,12480,Male,Scientist,Normal Weight,No
+451,35,8.37,Excellent,86,3,10769,Male,Lawyer,Normal Weight,No
+522,33,8.15,Excellent,74,3,10366,Female,Software Engineer,Underweight,No
+218,41,8.84,Excellent,71,2,12765,Male,Engineer,Normal Weight,No
+787,47,8.16,Excellent,91,2,10162,Male,Teacher,Normal Weight,No
+436,34,3.9,Poor,32,7,3895,Female,Teacher,Obese,Sleep Apnea
+764,25,7.18,Good,70,4,8128,Female,Software Engineer,Normal Weight,No
+88,42,8.46,Excellent,88,2,11302,Female,Software Engineer,Normal Weight,No
+63,52,3.98,Poor,26,9,3963,Female,Engineer,Overweight,Insomnia
+826,25,8.81,Excellent,86,3,12104,Male,Manager,Normal Weight,No
+716,52,3.55,Poor,37,8,5462,Male,Lawyer,Obese,Insomnia
+351,43,6.4,Average,41,5,6337,Female,Lawyer,Overweight,No
+936,28,7.19,Good,68,3,11814,Female,Doctor,Normal Weight,No
+256,32,7.47,Good,79,2,10053,Male,Doctor,Normal Weight,No
+635,21,4.84,Poor,21,9,2159,Female,Lawyer,Obese,Sleep Apnea
+644,50,6.71,Average,54,4,6642,Female,Manager,Normal Weight,Insomnia
+554,35,8.45,Excellent,80,2,11777,Male,Scientist,Normal Weight,No
+959,33,4.6,Poor,14,9,3238,Male,Teacher,Obese,Sleep Apnea
+168,40,6.55,Average,49,4,8398,Female,Scientist,Normal Weight,No
+917,26,8.53,Excellent,83,1,13568,Male,Nurse,Normal Weight,No
+528,46,6.9,Good,72,2,9184,Female,Manager,Normal Weight,No
+823,50,7.61,Good,60,2,8847,Male,Scientist,Normal Weight,No
+985,45,3.57,Poor,33,9,3030,Male,Engineer,Obese,Sleep Apnea
+816,40,8.77,Excellent,99,2,12803,Female,Teacher,Normal Weight,No
+86,31,8.83,Excellent,91,1,14428,Male,Scientist,Normal Weight,No
+432,38,6.73,Average,55,7,7667,Male,Scientist,Normal Weight,Insomnia
+184,31,8.13,Excellent,88,2,10754,Female,Manager,Normal Weight,No
+978,27,6.61,Average,57,4,5967,Male,Manager,Normal Weight,No
+534,33,8.42,Excellent,86,1,15875,Male,Lawyer,Normal Weight,No
+294,46,6.32,Average,44,4,5140,Female,Teacher,Overweight,No
+892,47,7.69,Good,69,3,8728,Male,Engineer,Normal Weight,No
+425,44,6.71,Average,59,6,6050,Male,Doctor,Normal Weight,No
+713,30,5.78,Average,40,5,8750,Male,Salesperson,Normal Weight,No
+260,37,7.54,Good,79,3,10795,Female,Software Engineer,Normal Weight,No
+237,27,8.76,Excellent,83,3,14570,Female,Nurse,Normal Weight,No
+559,42,5.95,Average,41,4,5299,Male,Software Engineer,Overweight,No
+583,34,8.99,Excellent,81,2,10528,Male,Doctor,Underweight,No
+445,53,7.21,Good,69,5,9390,Male,Salesperson,Normal Weight,No
+867,45,4.45,Poor,18,7,4343,Male,Software Engineer,Obese,Insomnia
+800,51,7.59,Good,67,5,10832,Male,Scientist,Normal Weight,No
+599,28,7.04,Good,69,5,9031,Male,Salesperson,Normal Weight,No
+849,52,4.43,Poor,14,9,3785,Female,Manager,Obese,Sleep Apnea
+265,39,8.47,Excellent,94,1,10225,Female,Lawyer,Normal Weight,No
+995,49,5.29,Poor,13,7,4597,Male,Scientist,Obese,Sleep Apnea
+529,28,3.66,Poor,28,9,3063,Female,Engineer,Obese,Sleep Apnea
+55,39,4.23,Poor,17,9,3218,Female,Lawyer,Obese,Insomnia
+120,40,8.69,Excellent,72,2,12063,Male,Nurse,Normal Weight,No
+215,49,6.57,Average,37,4,5858,Male,Scientist,Normal Weight,No
+25,33,3.66,Poor,30,9,4625,Female,Manager,Overweight,Insomnia
+72,42,7.61,Good,62,4,8011,Female,Engineer,Normal Weight,No
+44,53,6.35,Average,40,4,7307,Male,Teacher,Overweight,Insomnia
+247,34,5.07,Poor,23,8,4122,Female,Engineer,Overweight,Insomnia
+721,47,5.23,Poor,15,9,2956,Male,Nurse,Overweight,Sleep Apnea
+281,47,8.05,Excellent,93,1,11158,Male,Engineer,Normal Weight,No
+893,44,6.57,Average,47,6,8986,Female,Software Engineer,Normal Weight,No
+914,30,6.21,Average,37,4,8030,Female,Manager,Overweight,No
+810,39,7.35,Good,58,2,11627,Male,Engineer,Normal Weight,No
+244,44,6.31,Average,51,4,7884,Male,Lawyer,Overweight,Insomnia
+822,49,7.74,Good,64,4,10351,Female,Scientist,Normal Weight,No
+321,49,3.5,Poor,22,7,3297,Male,Manager,Obese,Sleep Apnea
+643,44,8.12,Excellent,91,1,14086,Female,Doctor,Normal Weight,No
+158,46,4.91,Poor,14,7,5236,Male,Doctor,Overweight,Insomnia
+977,31,8.66,Excellent,86,3,14951,Male,Doctor,Normal Weight,No
+429,25,6.16,Average,32,7,8812,Female,Software Engineer,Normal Weight,No
+941,49,8.72,Excellent,95,2,12367,Male,Teacher,Normal Weight,No
+462,48,7.82,Good,62,5,11093,Female,Software Engineer,Normal Weight,No
+309,46,7.78,Good,52,3,9216,Male,Lawyer,Normal Weight,No
+697,39,5.71,Average,49,5,8339,Male,Lawyer,Normal Weight,No
+60,45,5.96,Average,38,7,5484,Male,Software Engineer,Normal Weight,No
+884,37,8.45,Excellent,82,2,12637,Male,Doctor,Normal Weight,No
+595,48,4.8,Poor,30,9,5564,Male,Teacher,Overweight,Insomnia
+767,38,8.87,Excellent,80,3,10310,Female,Salesperson,Underweight,No
+649,40,8.42,Excellent,70,1,15759,Male,Manager,Normal Weight,No
+650,24,4.15,Poor,17,7,4966,Male,Salesperson,Obese,Insomnia
+865,25,7.55,Good,58,3,8553,Male,Salesperson,Normal Weight,No
+668,42,6.23,Average,46,4,6214,Male,Software Engineer,Normal Weight,No
+298,40,4.28,Poor,27,9,3076,Female,Teacher,Obese,Sleep Apnea
+689,27,6.42,Average,41,4,6418,Male,Nurse,Overweight,No
+314,32,6.27,Average,59,7,6526,Male,Manager,Overweight,Insomnia
+310,36,7.2,Good,61,3,8200,Female,Manager,Normal Weight,No
+361,44,7.46,Good,74,3,8830,Female,Engineer,Normal Weight,No
+479,49,7.82,Good,60,4,9576,Male,Engineer,Normal Weight,No
+110,35,7.34,Good,58,5,9806,Male,Teacher,Normal Weight,No
+989,22,6.32,Average,45,6,5204,Male,Scientist,Normal Weight,No
+486,35,5.45,Poor,37,8,3693,Male,Scientist,Overweight,Insomnia
+363,38,6.7,Average,35,6,8928,Male,Salesperson,Normal Weight,Insomnia
+254,38,6.78,Average,42,5,6546,Male,Manager,Normal Weight,No
+259,33,4.28,Poor,27,8,3021,Female,Engineer,Obese,Insomnia
+802,48,7.11,Good,57,2,8089,Male,Nurse,Normal Weight,No
+677,49,6.7,Average,39,6,7218,Female,Engineer,Normal Weight,Insomnia
+494,35,6.41,Average,43,5,5700,Male,Lawyer,Normal Weight,No
+670,32,8.94,Excellent,71,2,12276,Female,Salesperson,Normal Weight,No
+377,24,5.5,Poor,15,9,3460,Female,Lawyer,Obese,Sleep Apnea
+526,45,8.78,Excellent,95,2,13670,Female,Scientist,Underweight,No
+845,38,7.69,Good,65,5,9212,Male,Salesperson,Normal Weight,No
+137,32,4.33,Poor,34,8,5530,Male,Scientist,Overweight,Sleep Apnea
+355,45,4.55,Poor,22,8,5798,Female,Nurse,Obese,Sleep Apnea
+365,39,4.66,Poor,25,8,3496,Female,Engineer,Obese,Insomnia
+942,39,7.05,Good,59,4,10860,Male,Engineer,Normal Weight,No
+749,39,8.99,Excellent,85,2,12386,Male,Engineer,Underweight,No
+948,48,4.75,Poor,37,8,5302,Male,Lawyer,Obese,Sleep Apnea
+829,36,8.45,Excellent,99,2,15027,Male,Teacher,Normal Weight,No
+656,39,7.27,Good,63,5,11858,Male,Scientist,Normal Weight,No
+199,53,4.77,Poor,24,9,4482,Female,Doctor,Obese,Insomnia
+213,44,8.51,Excellent,83,3,11521,Male,Salesperson,Normal Weight,No
+408,54,4.17,Poor,35,7,5993,Male,Teacher,Obese,Insomnia
+332,29,7.52,Good,66,2,11085,Female,Manager,Normal Weight,No
+208,41,6.72,Average,43,6,5287,Male,Salesperson,Normal Weight,No
+613,30,7.26,Good,63,2,11225,Male,Engineer,Normal Weight,No
+78,39,7.05,Good,59,4,9409,Male,Software Engineer,Normal Weight,No
